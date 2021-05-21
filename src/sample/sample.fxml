@@ -4,10 +4,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Button layoutX="172.0" layoutY="175.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="256.0" text="Kliknij mnie!" textAlignment="CENTER" textFill="#ff0505">
+      <Button fx:id="btnMain" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onBtnAction" prefHeight="51.0" prefWidth="256.0" text="Kliknij mnie!" textAlignment="CENTER" textFill="#ff0505">
          <font>
             <Font size="24.0" />
          </font>
